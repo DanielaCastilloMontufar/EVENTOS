@@ -1,0 +1,38 @@
+CRITICAL - 2023-05-19 19:38:45 --> Undefined constant "App\Controllers\request"
+in APPPATH\Controllers\Home.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 19:42:52 --> Could not move file "php92C8.tmp" to "C:\xampp\htdocs\cim4\public/uploads/images/users/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 149.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php92C8.tmp', 'C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', '')
+ 2 APPPATH\Controllers\Home.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', 'C:\\xampp\\tmp\\php92C8.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->guarda()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 19:43:27 --> Could not move file "php1B52.tmp" to "C:\xampp\htdocs\cim4\public/uploads/images/users/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 149.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php1B52.tmp', 'C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', '')
+ 2 APPPATH\Controllers\Home.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', 'C:\\xampp\\tmp\\php1B52.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->guarda()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 19:44:16 --> Could not move file "phpDD4B.tmp" to "C:\xampp\htdocs\cim4\public/uploads/images/users/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 149.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpDD4B.tmp', 'C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', '')
+ 2 APPPATH\Controllers\Home.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', 'C:\\xampp\\tmp\\phpDD4B.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->guarda()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 19:47:01 --> Could not move file "php608D.tmp" to "C:\xampp\htdocs\cim4\public/uploads/images/users/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 149.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php608D.tmp', 'C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', '')
+ 2 APPPATH\Controllers\Home.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\cim4\\public/uploads/images/users/', 'C:\\xampp\\tmp\\php608D.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->guarda()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
